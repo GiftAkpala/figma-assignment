@@ -1,5 +1,76 @@
 body {
+    font-family: 'Inter', sans-serif;
+}
+.container {
     width: 350px;
-    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #EAECF0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    position: relative;
+    left: 190px;
+}
+h1 {
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 18px;
+}
+img{
     margin: auto;
 }
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card {
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 100%;
+    margin: 10px;
+    background: #EAECF0;
+    padding: 25px;
+    
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+.icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.slack {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25px;
+    height: 22px;
+    margin-top: 3px;
+}
+.zuri-internship {
+    margin-top: 90px;
+}
+.vector {
+    display: inline;
+    position: relative;
+    right: 105.7px;
+    margin-bottom: 3px;
+}
+
+footer
